@@ -1,0 +1,22 @@
+// app global css in SCSS form
+/* He creado los media queries en el archivo app.scss para que sea global a todas las páginas
+   del proyecto. El estilos css se aplicará a cada página individual para que tengan su estilo
+   propio y no sea genérico*/
+
+@media (max-width: $breakpoint-md-max) {
+  .item {
+    width: calc(33% - 24px) !important;
+  }
+}
+
+@media (max-width: $breakpoint-sm-max) {
+  .item {
+    width: calc(50% - 24px) !important;
+  }
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  .item {
+    width: 100% !important;
+  }
+}
